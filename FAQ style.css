@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(248, 249, 251);
+    margin: 0;
+}
+header{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    width: 100%;
+    padding: 20px;
+}
+h1{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:  #007bff;
+}
+.middle{
+    margin-top: 2rem;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.middle h2, .bottom h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 0.5rem;
+}
+.middle p, .bottom p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.middle li, .bottom li{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.bottom {
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list-style{
+    font-weight: 600;
+}
